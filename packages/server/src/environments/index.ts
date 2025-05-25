@@ -58,6 +58,7 @@ export const REDIS_HOST: string = process.env.REDIS_HOST || '127.0.0.1'
 export const REDIS_PORT: number = +process.env.REDIS_PORT || 6379
 export const REDIS_PASSWORD: string = process.env.REDIS_PASSWORD
 export const REDIS_DB: number = +process.env.REDIS_DB || 0
+export const REDIS_CONNECT_TIMEOUT: number = +process.env.REDIS_CONNECT_TIMEOUT || 0
 
 // SMTP
 export const VERIFY_USER_EMAIL: boolean = toBool(process.env.VERIFY_USER_EMAIL, false)
