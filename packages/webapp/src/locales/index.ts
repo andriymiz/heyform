@@ -9,6 +9,7 @@ import es from './es'
 import pl from './pl'
 import ptBr from './ptBr'
 import tr from './tr'
+import uk from './uk'
 import zhCn from './zhCn'
 import zhTw from './zhTw'
 import cs from './cs'
@@ -62,6 +63,12 @@ const resources = {
     translation: {
       ...cs,
       ...locales.cs.translation
+    }
+  },
+  uk: {
+    translation: {
+      ...uk,
+      ...locales.uk.translation
     }
   },
 }

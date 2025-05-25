@@ -4,6 +4,7 @@ import fr from './fr'
 import ja from './ja'
 import pl from './pl'
 import tr from './tr'
+import uk from './uk'
 import zhCn from './zh-cn'
 import zhTw from './zh-tw'
 import es from './es'
@@ -34,6 +35,9 @@ export const locales: Record<string, any> = {
   },
   tr: {
     translation: tr
+  },
+  uk: {
+    translation: uk
   },
   'zh-cn': {
     translation: zhCn
